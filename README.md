@@ -1,5 +1,11 @@
 # 🎭 Flexible Emotion Detector
 
+[![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-ff4b4b?logo=streamlit)](https://streamlit.io/)
+[![License](https://img.shields.io/github/license/Uvais5/Flexible-Emotion-Detector)](https://github.com/Uvais5/Flexible-Emotion-Detector/blob/master/LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/Uvais5/Flexible-Emotion-Detector)
+[![Stars](https://img.shields.io/github/stars/Uvais5/Flexible-Emotion-Detector?style=social)](https://github.com/Uvais5/Flexible-Emotion-Detector/stargazers)
+
 Detect human emotions from **video 🎦**, **audio 🎧**, or **text 💬** — all in one flexible and interactive Streamlit app.
 
 <p align="center">
@@ -12,18 +18,18 @@ Detect human emotions from **video 🎦**, **audio 🎧**, or **text 💬** — 
 
 Flexible Emotion Detector is a **multi-modal emotion recognition system** that adapts to different input types — video, audio, or text. It extracts emotional cues from:
 
-- **Facial expressions** in videos
-- **Speech signals** in audio
-- **Words and phrases** in spoken or written text
+- **Facial expressions** in videos  
+- **Speech signals** in audio  
+- **Words and phrases** in spoken or written text  
 
-This tool integrates deep learning models for vision, audio, and NLP to give a unified emotion prediction experience. It is ideal for applications like affective computing, mood analysis, and emotional insight extraction in human–AI interaction.
+This tool integrates deep learning models for vision, audio, and NLP to provide a unified emotion prediction experience. It’s ideal for applications like affective computing, mood analysis, and emotional insight extraction in human–AI interaction.
 
 ---
 
 ## 💡 Problem It Solves
 
-- ✅ Users often don’t have the same input format — some only provide audio, some video, others just typed or spoken text.
-- ✅ Most emotion models work on only **one modality**.
+- ✅ Users often don’t have the same input format — some only provide audio, some video, others just typed or spoken text.  
+- ✅ Most emotion models work on only **one modality**.  
 - ✅ This system adapts to **whatever input is available** — making it useful in real-world settings like:
   - Virtual therapy & mood tracking
   - Voice assistants
@@ -33,13 +39,15 @@ This tool integrates deep learning models for vision, audio, and NLP to give a u
 ---
 
 ## ✨ Key Features
-| Modality | What Happens | Model |
-|----------|--------------|-------|
-| **Face** | Picks the emotion that appears most often across all faces in the video. | CNN (FER-2013) |
-| **Speech** | Extracts MFCC features → LSTM → emotion from vocal tone. | Audio model (`emotion_audio_model.h5`) |
-| **Text** | Speech-to-text → EmoRoBERTa sentiment classifier. | Hugging Face pipeline |
 
-Switch modalities on/off in the sidebar. Upload **video (mp4)**, **audio (wav/mp3)**, or just paste text.
+| Modality   | What Happens                                                | Model                           |
+|------------|-------------------------------------------------------------|----------------------------------|
+| **Face**   | Detects most frequent facial emotion from video frames      | CNN (FER-2013)                  |
+| **Speech** | Classifies vocal tone using MFCC + LSTM                     | Audio model (`.h5`)             |
+| **Text**   | Transcribes audio and detects text emotion via NLP pipeline | Hugging Face RoBERTa (EmoNLP)   |
+
+🎛️ Toggle any combination of modalities on/off from the Streamlit sidebar.  
+📂 Accepts **MP4 (video)**, **WAV/MP3 (audio)**, or **typed/pasted text**.
 
 ---
 
@@ -50,11 +58,10 @@ Switch modalities on/off in the sidebar. Upload **video (mp4)**, **audio (wav/mp
 git clone https://github.com/Uvais5/Flexible-Emotion-Detector.git
 cd Flexible-Emotion-Detector
 
-# create env & install deps
+# create virtual environment & install dependencies
 python -m venv venv
-source venv/bin/activate          # Windows: venv\Scripts\activate
+source venv/bin/activate          # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-# launch app
-streamlit run new_main.py         # open browser at http://localhost:8501
-
+# launch the app
+streamlit run new_main.py
