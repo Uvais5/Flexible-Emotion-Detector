@@ -26,6 +26,22 @@ This tool integrates deep learning models for vision, audio, and NLP to provide 
 
 ---
 
+## 🎬 Project Demo
+
+<div align="center">
+  <a href="https://youtu.be/kZP5kroO56Q?si=IAgaUtPpsjqIgkni" target="_blank">
+    <img src="frontview.png" alt="Watch Anime Recommendation System Demo" width="640">
+  </a>
+  <br>
+  <strong><a href="https://www.youtube.com/watch?v=DF53aO3G2jQ&ab_channel=uvaissaifi" target="_blank">▶️ Watch: Build a Content-Based Anime Recommender System</a></strong>
+  <p>Video by Data Science Solutions</p>
+</div>
+
+> ⚠️ GitHub does not support embedding actual YouTube videos. Clicking the image will open the video in a new tab.
+
+
+---
+
 ## 💡 Problem It Solves
 
 - ✅ Users often don’t have the same input format — some only provide audio, some video, others just typed or spoken text.  
