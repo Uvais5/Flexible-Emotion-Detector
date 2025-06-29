@@ -9,7 +9,7 @@
 Detect human emotions from **video 🎦**, **audio 🎧**, or **text 💬** — all in one flexible and interactive Streamlit app.
 
 <p align="center">
-  <img src="frontview.png" alt="App screenshot" width="640">
+  <img src="intro_flex.gif" alt="App screenshot" width="640">
 </p>
 
 ---
