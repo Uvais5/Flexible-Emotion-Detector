@@ -30,10 +30,10 @@ This tool integrates deep learning models for vision, audio, and NLP to provide 
 
 <div align="center">
   <a href="https://youtu.be/kZP5kroO56Q?si=IAgaUtPpsjqIgkni" target="_blank">
-    <img src="thumbnail.png" alt="Watch Anime Recommendation System Demo" width="640">
+    <img src="thumbnail.png" alt="Watch Flexible Emotion Detector Demo" width="640">
   </a>
   <br>
-  <strong><a href="https://www.youtube.com/watch?v=DF53aO3G2jQ&ab_channel=uvaissaifi" target="_blank">▶️ Watch: Build a Content-Based Anime Recommender System</a></strong>
+  <strong><a href="https://www.youtube.com/watch?v=DF53aO3G2jQ&ab_channel=uvaissaifi" target="_blank">▶️ Watch: Flexible Emotion Detector</a></strong>
   <p>Video by Data Science Solutions</p>
 </div>
 
